@@ -148,3 +148,24 @@ button[disabled]{opacity:.55;cursor:not-allowed}
 }
 @media print{.site-header,.site-footer,.cta-row{display:none}}
 .data-table td:first-child{white-space:nowrap;font-weight:600}
+
+/* Case-file & education content (added 2026-10-04) */
+a.cite{text-decoration:none;font-size:.8em;font-weight:600;white-space:nowrap}
+.case-prose{max-width:80ch}
+.case-prose h3{font-size:1.2rem}
+.timeline .src{font-size:.85rem;color:var(--muted)}
+.data-table.sources td.url{word-break:break-all;min-width:14ch;font-size:.82rem}
+.data-table tr:target{background:var(--gold-100)}
+.role-draft{margin-top:1.2rem;border:2px dashed #b8860b;background:#fff8e4;border-radius:8px;padding:1rem 1.2rem}
+.role-draft-label{display:inline-block;background:#b8860b;color:#fff;font-weight:700;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;padding:.25rem .6rem;border-radius:4px}
+.role-draft-title{font-weight:700;margin:.6rem 0 .3rem;color:var(--navy-800)}
+.role-draft p{margin:.4rem 0}
+blockquote.quote{margin:.8rem 0;padding:.6rem 1rem;border-left:3px solid var(--gold-500);background:#f7f4ea;font-size:.95rem}
+blockquote.quote p{margin:.3rem 0}
+p.attrib{font-size:.85rem;color:var(--muted);margin-top:-.4rem}
+.pending{display:inline-block;background:repeating-linear-gradient(45deg,#fff8e4,#fff8e4 10px,#fdf2d2 10px,#fdf2d2 20px);border:1px dashed #c9a44c;color:#6b5315;padding:.3rem .6rem;border-radius:6px;font-style:italic}
+.notice.legal-notice{font-size:1rem;border-left-width:6px;margin-bottom:1.4rem}
+.notice.editorial{margin-top:1.6rem}
+.edu{max-width:80ch}
+hr.rule{border:0;border-top:1px solid var(--line);margin:2rem 0}
+ul.checklist{list-style:none;padding-left:.2rem}
