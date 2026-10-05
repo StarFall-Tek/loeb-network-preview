@@ -1,0 +1,43 @@
+{
+  "id": "./",
+  "name": "The Loeb Network",
+  "short_name": "Loeb Network",
+  "description": "Records research, advocacy, and global accountability research. Sourced case files and public-records accountability research by Christopher M. Loeb Solutions.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#060d1f",
+  "background_color": "#0c1b33",
+  "categories": [
+    "news",
+    "education"
+  ],
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

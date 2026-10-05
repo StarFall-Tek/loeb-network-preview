@@ -10,7 +10,12 @@
 <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
+<link rel="manifest" href="../manifest.webmanifest">
 <meta name="theme-color" content="#060d1f">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Loeb Network">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="The Loeb Network">
 <meta property="og:title" content="GA-003: Australia's Royal Commission: Cultures of Secrecy | The Loeb Network">
@@ -34,6 +39,7 @@
       <img src="../assets/tln-crest-112.png" alt="The Loeb Network TLN lion crest" width="47" height="52">
       <span class="brand-text"><span class="brand-name">The Loeb Network</span><span class="brand-sub">Christopher M. Loeb Solutions</span></span>
     </a>
+    <button type="button" class="btn-app js-install js-install-header" hidden>Get the app</button>
     <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
     <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">&#9776;</label>
     <nav class="site-nav" aria-label="Main"><ul><li><a href="../index.html">Home</a></li><li><a href="../about.html">About</a></li><li><a href="../why.html">Why We Do This</a></li><li><a href="../services.html">Services</a></li><li><a href="../case-files/index.html">Case Files</a></li><li><a href="../global-accountability/index.html" aria-current="page">Global Accountability</a></li><li><a href="../contact.html">Contact</a></li></ul></nav>
@@ -70,6 +76,7 @@
       <div>
         <h4>The Loeb Network</h4>
         <p>Christopher M. Loeb Solutions — records research, advocacy, and accountability research with global reach. Documented. Sourced. Fair.</p>
+        <p><button type="button" class="btn-app js-install" hidden>&#128242; Get the app</button></p>
       </div>
       <div>
         <h4>Explore</h4>
@@ -83,5 +90,6 @@
     <div class="footer-bottom"><span>&copy; 2026 The Loeb Network · Christopher M. Loeb Solutions</span><span>First draft — content under review</span></div>
   </div>
 </footer>
+<script src="../js/app.js" data-root="../" defer></script>
 </body>
 </html>
