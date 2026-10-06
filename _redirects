@@ -1,0 +1,2 @@
+/gotham-city-social    https://gotham-city-social.netlify.app/        301!
+/gotham-city-social/*  https://gotham-city-social.netlify.app/:splat  301!
